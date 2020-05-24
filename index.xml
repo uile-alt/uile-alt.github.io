@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ping 博客</title>
-    <link>http://example.org/</link>
+    <link>https://uile-alt.github.io/</link>
     <description>Recent content on ping 博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
     <lastBuildDate>Sun, 24 May 2020 15:29:53 +0800</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://uile-alt.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>第二篇博客</title>
-      <link>http://example.org/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
+      <link>https://uile-alt.github.io/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Sun, 24 May 2020 15:29:53 +0800</pubDate>
       
-      <guid>http://example.org/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>https://uile-alt.github.io/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
       <description>这是我第二篇博客 </description>
     </item>
     
     <item>
       <title>First</title>
-      <link>http://example.org/posts/first/</link>
+      <link>https://uile-alt.github.io/posts/first/</link>
       <pubDate>Sun, 24 May 2020 14:48:04 +0800</pubDate>
       
-      <guid>http://example.org/posts/first/</guid>
+      <guid>https://uile-alt.github.io/posts/first/</guid>
       <description>第一次用hugo </description>
     </item>
     
