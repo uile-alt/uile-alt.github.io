@@ -34,7 +34,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://uile-alt.github.io/" />
-<meta property="og:updated_time" content="2020-05-24T15:29:53+08:00" />
+<meta property="og:updated_time" content="2020-05-24T18:01:18+08:00" />
 <meta itemprop="name" content="ping 博客">
 <meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="ping 博客"/>
@@ -122,12 +122,44 @@
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="https://uile-alt.github.io/posts/hugotogithub/" class="color-inherit dim link">
+            HugoToGithub
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          使用hugo搭建博客，并在GitHub Pages预览HTML 我使用的编辑器是Visual Studio Code，命令行工具是Bash。
+  从hugo的 GitHub Releases下载相应的版本
+  添加hugo.exe的路径到Path，这命令行工具输入hugo version验证
+  建立一个网站，名为blog
+  hugo new site blog 下载主题  cd blog git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke 然后，将主题添加到站点配置中：
+echo 'theme = &quot;ananke&quot;' &gt;&gt; config.toml 添加文章 添加一个测试文件test.md  hugo new posts/test.md 编辑test.md，原来的内容不要删除，编写完内容修改draft为false。 6. 启动hugo服务器
+ hugo server -D 按住ctrl单击运行完的链接，例如http://localhost:xxxx/，之后你就能在浏览器查看test.md的效果。博客已完成，接下来上传到GitHub。
+建立静态页面  hugo -D 执行完，项目会增加一个public文件夹，这个就是要上传到GitHub仓库的。 8. 初始化public仓库 首先在blog项目下创建.gitignore文件，里面添加/public/，然后直接下面命令.
+cd public git init 添加到本地仓库  git add.
+        </div>
+          <a href="https://uile-alt.github.io/posts/hugotogithub/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
           <a href="https://uile-alt.github.io/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/" class="color-inherit dim link">
             第二篇博客
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          这是我第二篇博客 
+          这是我第二篇博客 接下来就开始写文章，和
         </div>
           <a href="https://uile-alt.github.io/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
